@@ -1,3 +1,5 @@
+import { magicAdmin } from "../../lib/magic";
+
 export default async function login(req, res) {
   if (req.method === "POST") {
     try {
